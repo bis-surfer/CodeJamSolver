@@ -1,5 +1,5 @@
 //
-//  Round1AProblemSolver.m
+//  Round1AProblemASolver.m
 //  CodeJamSolver
 //
 //  Created by Ilya Borisov on 4/20/14.
@@ -8,17 +8,18 @@
 //  In order to build fully-functional OS X app (with simple UI)
 //  intended to construct output text file by input text file according to Google Code Jam contest requirements
 //  please download Xcode project at https://github.com/bis-surfer/CodeJamSolver
-//  and replace file of the same name "Round1AProblemSolver.m" with the present file
+//  and replace file of the same name ("Round1AProblemASolver.m") with the present file.
+//  Also rewrite method +[Computer specificProblemSolverClass] to return [Round1AProblemASolver class].
 //
-//  Changing Chaos
+//  Charging Chaos Problem (A)
 //
 
-#import "Round1AProblemSolver.h"
+#import "Round1AProblemASolver.h"
 
 #import "NSMutableArray+FlipSwitches.h"
 
 
-@implementation Round1AProblemSolver
+@implementation Round1AProblemASolver
 
 NSString *kNotPossible = @"NOT POSSIBLE";
 

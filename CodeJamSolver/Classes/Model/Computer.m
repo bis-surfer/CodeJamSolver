@@ -12,7 +12,14 @@
 #import "Settings.h"
 #import "ProgressMeter.h"
 
-#import "Round1BProblemSolver.h"
+#import "Round1AProblemASolver.h"
+
+#import "Round1BProblemASolver.h"
+#import "Round1BProblemBSolver.h"
+
+#import "Round1CProblemASolver.h"
+#import "Round1CProblemBSolver.h"
+#import "Round1CProblemCSolver.h"
 
 
 @interface Computer ()
@@ -24,7 +31,7 @@
 
 + (Class)specificProblemSolverClass {
     
-    return [Round1BProblemSolver class];
+    return [Round1BProblemBSolver class];
 }
 
 + (NSString *)inputString {

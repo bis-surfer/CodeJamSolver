@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		09A3131E18CDE37000FBC760 /* SpecificProblemSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A3131D18CDE37000FBC760 /* SpecificProblemSolver.m */; };
+		09A790ED19177E6A00ADB754 /* Round1BProblemBSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A790EC19177E6A00ADB754 /* Round1BProblemBSolver.m */; };
+		09A790F0191784EC00ADB754 /* Round1CProblemASolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A790EF191784EC00ADB754 /* Round1CProblemASolver.m */; };
+		09A790F3191785A200ADB754 /* Round1CProblemBSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A790F2191785A200ADB754 /* Round1CProblemBSolver.m */; };
+		09A790F61917867500ADB754 /* Round1CProblemCSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A790F51917867500ADB754 /* Round1CProblemCSolver.m */; };
 		09AFC03218D325E900DFC8F7 /* ProgressRingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AFC03118D325E900DFC8F7 /* ProgressRingStyle.m */; };
 		09AFC03918D325F700DFC8F7 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AFC03418D325F700DFC8F7 /* ArcView.m */; };
 		09AFC03A18D325F700DFC8F7 /* ProgressRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AFC03618D325F700DFC8F7 /* ProgressRingView.m */; };
@@ -30,8 +34,8 @@
 		09B5A6DB18BF914E006E7761 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5A6DA18BF914E006E7761 /* Computer.m */; };
 		09B81C1B18DC944000101940 /* NSArray+Ordering.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B81C1A18DC944000101940 /* NSArray+Ordering.m */; };
 		484C653B190B574D006309BB /* NSMutableArray+FlipSwitches.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C653A190B574D006309BB /* NSMutableArray+FlipSwitches.m */; };
-		484C653E191539DE006309BB /* Round1BProblemSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C653D191539DE006309BB /* Round1BProblemSolver.m */; };
-		4853521519044E4C005CDA06 /* Round1AProblemSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853521419044E4C005CDA06 /* Round1AProblemSolver.m */; };
+		484C653E191539DE006309BB /* Round1BProblemASolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 484C653D191539DE006309BB /* Round1BProblemASolver.m */; };
+		4853521519044E4C005CDA06 /* Round1AProblemASolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4853521419044E4C005CDA06 /* Round1AProblemASolver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,14 @@
 /* Begin PBXFileReference section */
 		09A3131C18CDE37000FBC760 /* SpecificProblemSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificProblemSolver.h; sourceTree = "<group>"; };
 		09A3131D18CDE37000FBC760 /* SpecificProblemSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificProblemSolver.m; sourceTree = "<group>"; };
+		09A790EB19177E6A00ADB754 /* Round1BProblemBSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1BProblemBSolver.h; sourceTree = "<group>"; };
+		09A790EC19177E6A00ADB754 /* Round1BProblemBSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1BProblemBSolver.m; sourceTree = "<group>"; };
+		09A790EE191784EC00ADB754 /* Round1CProblemASolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1CProblemASolver.h; sourceTree = "<group>"; };
+		09A790EF191784EC00ADB754 /* Round1CProblemASolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1CProblemASolver.m; sourceTree = "<group>"; };
+		09A790F1191785A200ADB754 /* Round1CProblemBSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1CProblemBSolver.h; sourceTree = "<group>"; };
+		09A790F2191785A200ADB754 /* Round1CProblemBSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1CProblemBSolver.m; sourceTree = "<group>"; };
+		09A790F41917867500ADB754 /* Round1CProblemCSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1CProblemCSolver.h; sourceTree = "<group>"; };
+		09A790F51917867500ADB754 /* Round1CProblemCSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1CProblemCSolver.m; sourceTree = "<group>"; };
 		09AFC03018D325E900DFC8F7 /* ProgressRingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressRingStyle.h; sourceTree = "<group>"; };
 		09AFC03118D325E900DFC8F7 /* ProgressRingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressRingStyle.m; sourceTree = "<group>"; };
 		09AFC03318D325F700DFC8F7 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
@@ -87,10 +99,10 @@
 		09B81C1A18DC944000101940 /* NSArray+Ordering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ordering.m"; sourceTree = "<group>"; };
 		484C6539190B574D006309BB /* NSMutableArray+FlipSwitches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FlipSwitches.h"; sourceTree = "<group>"; };
 		484C653A190B574D006309BB /* NSMutableArray+FlipSwitches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FlipSwitches.m"; sourceTree = "<group>"; };
-		484C653C191539DE006309BB /* Round1BProblemSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1BProblemSolver.h; sourceTree = "<group>"; };
-		484C653D191539DE006309BB /* Round1BProblemSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1BProblemSolver.m; sourceTree = "<group>"; };
-		4853521319044E4C005CDA06 /* Round1AProblemSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1AProblemSolver.h; sourceTree = "<group>"; };
-		4853521419044E4C005CDA06 /* Round1AProblemSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1AProblemSolver.m; sourceTree = "<group>"; };
+		484C653C191539DE006309BB /* Round1BProblemASolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1BProblemASolver.h; sourceTree = "<group>"; };
+		484C653D191539DE006309BB /* Round1BProblemASolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1BProblemASolver.m; sourceTree = "<group>"; };
+		4853521319044E4C005CDA06 /* Round1AProblemASolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round1AProblemASolver.h; sourceTree = "<group>"; };
+		4853521419044E4C005CDA06 /* Round1AProblemASolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round1AProblemASolver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,10 +269,18 @@
 				09B5A6DA18BF914E006E7761 /* Computer.m */,
 				09A3131C18CDE37000FBC760 /* SpecificProblemSolver.h */,
 				09A3131D18CDE37000FBC760 /* SpecificProblemSolver.m */,
-				4853521319044E4C005CDA06 /* Round1AProblemSolver.h */,
-				4853521419044E4C005CDA06 /* Round1AProblemSolver.m */,
-				484C653C191539DE006309BB /* Round1BProblemSolver.h */,
-				484C653D191539DE006309BB /* Round1BProblemSolver.m */,
+				4853521319044E4C005CDA06 /* Round1AProblemASolver.h */,
+				4853521419044E4C005CDA06 /* Round1AProblemASolver.m */,
+				484C653C191539DE006309BB /* Round1BProblemASolver.h */,
+				484C653D191539DE006309BB /* Round1BProblemASolver.m */,
+				09A790EB19177E6A00ADB754 /* Round1BProblemBSolver.h */,
+				09A790EC19177E6A00ADB754 /* Round1BProblemBSolver.m */,
+				09A790EE191784EC00ADB754 /* Round1CProblemASolver.h */,
+				09A790EF191784EC00ADB754 /* Round1CProblemASolver.m */,
+				09A790F1191785A200ADB754 /* Round1CProblemBSolver.h */,
+				09A790F2191785A200ADB754 /* Round1CProblemBSolver.m */,
+				09A790F41917867500ADB754 /* Round1CProblemCSolver.h */,
+				09A790F51917867500ADB754 /* Round1CProblemCSolver.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -420,6 +440,8 @@
 			files = (
 				09AFC03E18D3315B00DFC8F7 /* ProgressMeter.m in Sources */,
 				09B5A6DB18BF914E006E7761 /* Computer.m in Sources */,
+				09A790F3191785A200ADB754 /* Round1CProblemBSolver.m in Sources */,
+				09A790F61917867500ADB754 /* Round1CProblemCSolver.m in Sources */,
 				09B81C1B18DC944000101940 /* NSArray+Ordering.m in Sources */,
 				09B5A6A718BF330F006E7761 /* AppDelegate.m in Sources */,
 				09B5A6CD18BF3CD0006E7761 /* MasterViewController.m in Sources */,
@@ -427,9 +449,11 @@
 				09A3131E18CDE37000FBC760 /* SpecificProblemSolver.m in Sources */,
 				09AFC03918D325F700DFC8F7 /* ArcView.m in Sources */,
 				09B5A6D818BF7E81006E7761 /* Settings.m in Sources */,
-				4853521519044E4C005CDA06 /* Round1AProblemSolver.m in Sources */,
+				4853521519044E4C005CDA06 /* Round1AProblemASolver.m in Sources */,
 				09AFC03218D325E900DFC8F7 /* ProgressRingStyle.m in Sources */,
-				484C653E191539DE006309BB /* Round1BProblemSolver.m in Sources */,
+				09A790F0191784EC00ADB754 /* Round1CProblemASolver.m in Sources */,
+				09A790ED19177E6A00ADB754 /* Round1BProblemBSolver.m in Sources */,
+				484C653E191539DE006309BB /* Round1BProblemASolver.m in Sources */,
 				09B5A6D518BF5ED9006E7761 /* General.m in Sources */,
 				484C653B190B574D006309BB /* NSMutableArray+FlipSwitches.m in Sources */,
 				09B5A6A018BF330F006E7761 /* main.m in Sources */,
